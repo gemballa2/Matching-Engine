@@ -46,7 +46,6 @@ public:
 		Market_Orders_Allocation_Vec_Buys.resize(Max_Order_Book_Size);					// Spec the initial buy allocation vector for market orders size
 		Market_Orders_Allocation_Vec_Sells.resize(Max_Order_Book_Size);					// Spec the initial sell allocation vector for market orders size
 
-
 	}
 
 	virtual ~Order_Book_1_Symbol() {
